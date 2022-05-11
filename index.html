@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome.min.css" integrity="sha384jlKHM3JRmfMU0A5x5Akwkw/EyGUAGagvnfryNV#F9VqM98XiH7VBGoxVSc7" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Portifolio</title>
+</head>
+<body>
+    <header>
+        <nav class="navbrand">
+            <p class="navbrand">LOGO<a href="#">
+                <p><i class="fa-brands fa-facebook"></i></a></p>
+        </nav>
+        <nav class="nav nav-tabs justify-content-center">
+            <ul class="nav">
+                <li class="home nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="aboutus nav-item" id="Sobre Nós"><a class="nav-link" href="#">About Us</a></li>
+                <li class="Portifolio nav-item"><a class="nav-link" href="#">Portifolio</a></li>
+                <li class="services nav-item"><a class="nav-link" href="#">Our Services</a></li>
+                <li class="ourteame nav-item"><a class="nav-link" href="#">Our Team</a></li>
+                <li class="Skills nav-item"><a class="nav-link" href="#">Skills</a></li>
+                <li class="Princing nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link btn-danger" href="#">Hire Me</a>
+            </ul>
+        </nav>
+    </header>
+    <main>                                           <!--carousel-->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <figure>
+                        <img src="fundo.jpg" alt="Los Angeles" class="d-block mx-auto">
+                        <figcaption class="carousel-texto d-block mx-auto">
+                            <!--<p>O melhor design original e criativo para o seu negocio.</p>-->
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="carousel-item">
+                    <figure>
+                        <img src="fundo2.jpg" alt="Chicago" class="d-block mx-auto">
+                        <figcaption class="carousel-texto d-block mx-auto">
+                            <!--<p>sites dinamico com as melhores tecnologias do mercado.</p>-->
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="carousel-item">
+                    <figure>
+                        <img src="workspace.jpg" alt="New York" class="d-block mx-auto">
+                        <figcaption class="carousel-texto d-block mx-auto">
+                            <!--<p>sites dinamico com as melhores tecnologias do mercado.</p>-->
+                        </figcaption>
+                    </figure>
+                </div>
+                                                        <!--indicadors/dots-->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active">
+                    </button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="active"></button>
+                </div>
+                                                <!--left and right controls/icons-->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+        
+        <section class="card-body">
+            <div class="sobrenos"> 
+                <h1 class="text-uppercase">| Sobre nós</h1>
+                <p>somos uma empresa que fornece serviços de Desemvolvimento de aplicações web e sistemas.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quis labore modi ad, 
+                    temporibus tempora. </p>
+                <p> nulla exercitationem, minus esse et alias ducimus? Cum fugit
+                    hic repudiandae animi?</p>
+                <p> placeat nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </section>  
+
+        <section class="servicos" id="services">  
+                <h6 class="text-uppercase">o que nós fazemos?</h6>
+                <h5 class="text-capitalize">nossos serviços</h5> 
+            <div class="detalhes justify-content-center d-flex">  
+                <!--!<i class="fa-brands fa-facebook"></i> Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <div class=""> 
+                    <figure class="imagem">
+                        <img src="pc.jpg" alt="">
+                        <figcaption class="titulo-texto">Design criativo</figcaption>
+                    </figure>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Ad voluptatibus, ratione dolore doloribus aut cupiditate 
+                        laudantium explicabo ipsa blanditiis 
+                        amet harum nam ea iure esse non excepturi dicta quaerat 
+                        obcaecati?
+                    </p>
+                </div>
+                <div class=""> 
+                    <figure class="imagem">
+                        <img src="pc.jpg" alt="">
+                        <figcaption class="titulo-texto">Desemvolvimento Web</figcaption>
+                    </figure> 
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Ad voluptatibus, ratione dolore doloribus aut cupiditate 
+                        laudantium explicabo ipsa blanditiis 
+                        amet harum nam ea iure esse non excepturi dicta quaerat 
+                        obcaecati?
+                    </p>
+                </div>
+                <div class="">
+                    <figure class="imagem">
+                        <img src="pc.jpg" alt="">
+                        <figcaption class="titulo-texto">Desenvolvimento mobile</figcaption>
+                    </figure>  
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Ad voluptatibus, ratione dolore doloribus aut cupiditate 
+                        laudantium explicabo ipsa blanditiis 
+                        amet harum nam ea iure esse non excepturi dicta quaerat 
+                        obcaecati?
+                    </p>
+                </div>
+            </div> 
+        </section> 
+        <footer class="footer">
+            <div class="direitos">
+            <img src="background.jpg" alt="fundo"> 
+                <p>todos os direitos reservados</p>
+            </div>
+        </footer>
+    </main>  
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script> 
+    </script>
+
+</body>
+</html>

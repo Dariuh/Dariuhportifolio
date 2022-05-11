@@ -1,0 +1,155 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto; 
+}
+li{
+    list-style: none;
+}  
+
+                        /*carousel*/
+.carousel{
+    background-color: #171e28;
+}
+
+.carousel-texto{
+    position: relative;
+    top: -300px; 
+    margin: 5px;
+    padding: 5px; 
+    text-align: justify;
+    width: 350px; 
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+                        /*serveces produtos e detalhes*/ 
+
+.servicos{
+    padding: 50px; 
+    background-color: #1e2233;
+} 
+.servicos h5{ 
+    position: relative;
+    left: 80px;
+    max-width: 150px;
+    color: #feffff;
+    position: relative;
+    top: -8px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: sans-serif; 
+}  
+.servicos h6{ 
+    max-width: 130px;
+    position: relative;
+    left: 80px;
+    font-size:12px;
+    color: #dd676f;
+}
+
+.servicos .detalhes div{   
+    padding:30px;
+    margin:5px; 
+    width: 350px;
+    background-color:#24273d; 
+    font-family: sans-serif;
+    border: #3d2035 solid 2px;
+    border-radius: 20px;
+    font-size: 14px;   
+    justify-content: space-between;
+}
+.servicos .detalhes .titulo-texto{
+    color: #efeef1;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.servicos .detalhes P{ 
+    text-align: justify;  
+    color: #cecece;
+    font-size: 12px;
+}
+.servicos .detalhes div .imagem{
+    text-align: center;
+}
+.servicos .detalhes div .imagem img{
+    width: 25%;
+} 
+.detalhes p{
+    text-align:left;
+}
+
+    	                /*fim*/
+.skill{     
+    justify-content: center; 
+    padding: 10px;
+    text-align:left;
+    width: 600px; 
+    color: #feffff;
+    background-color: #171e28;
+}
+
+
+                        /*sobre nós*/
+.sobrenos h1{
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'serif',Times New Roman;
+}                       
+.sobrenos{
+    margin: 50px 0px 0px 50px; 
+    text-align: justify;
+}
+.sobrenos p:nth-child(2){
+    color: red;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+}
+.sobrenos p:nth-child(3)
+
+.card-body{
+    display: flex;
+    background-color: #ffffff;
+}
+.cardi{
+    display: flex;
+}
+
+#card{ 
+    background: #fafafa;
+    border:#c76970 1px solid;  
+    margin: 5px;
+    padding: 20px;
+    width: 320px;
+    height: 450px;
+}
+.card h4{
+    color: #c76970;
+    font-weight: bolder;
+    font-size:larg;
+    text-align: left;
+    margin-left: 30px;
+    font-family: sans-serif; 
+}
+#card a{
+    align-self: end;
+    background-color: #c76970;
+    max-width: max-content;
+}
+#card a:hover{
+    font-weight: 600;
+    transition: 1s; 
+    background-color: rgb(0, 58, 112);
+    color: #cecece;
+}
+.card-body h2{
+    text-align: center;
+}
+.card img{ 
+    max-width: max-content;
+    height: fit-content;
+    margin-left:30px ;
+}
